@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master's Graduation Documents | British University in Egypt</title>
+    <meta name="description" content="Master's Graduation Documents for research on Reducing Variable Renewable Energy Integration Cost by Enhancing Solar Power Prediction Using Machine Learning and Artificial Intelligence.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-bg: #f8fafc;
+            --secondary-bg: #ffffff;
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --accent: #BA0C2F; 
+            --accent-hover: #9e0a28; 
+            --bue-blue: #003366; 
+            --gradient-start: #f1f5f9; 
+            --gradient-end: #e2e8f0; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Abstract Background Elements */
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: 0;
+            animation: float 20s infinite ease-in-out alternate;
+        }
+
+        .shape-1 {
+            width: 400px;
+            height: 400px;
+            background: rgba(186, 12, 47, 0.15);
+            top: -100px;
+            left: -100px;
+        }
+
+        .shape-2 {
+            width: 500px;
+            height: 500px;
+            background: rgba(0, 51, 102, 0.15);
+            bottom: -200px;
+            right: -100px;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(50px, 30px) scale(1.1); }
+            100% { transform: translate(-30px, 50px) scale(0.9); }
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 24px;
+            padding: 3rem 2.5rem;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes slideUpFade {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        .bue-logo {
+            max-width: 180px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* Typography */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+            color: var(--bue-blue);
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-muted); /* Slate 400 */
+            text-align: center;
+            margin-bottom: 2rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 1.25rem;
+        }
+
+        .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .highlight {
+            color: #fff;
+            font-weight: 400;
+            display: block;
+            margin-top: 0.5rem;
+            font-size: 1.15rem;
+            font-style: italic;
+        }
+
+        /* Tabs Styles */
+        .tabs-container {
+            width: 100%;
+        }
+
+        
+        .layout-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 1.5rem;
+            align-items: start;
+        }
+
+        .tabs-header-wrapper {
+            position: relative;
+        }
+
+        .tabs-header {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            max-height: 450px;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(0, 51, 102, 0.2) transparent;
+        }
+
+        .tabs-header::-webkit-scrollbar {
+            width: 6px;
+        }
+        .tabs-header::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 51, 102, 0.2);
+            border-radius: 10px;
+        }
+
+        .tab-btn {
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            color: var(--text-muted);
+            padding: 0.8rem 1rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-align: left;
+            white-space: normal;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+            width: 100%;
+        }
+
+        .tab-btn:hover {
+            background: rgba(0, 0, 0, 0.05);
+            color: var(--text-main);
+            transform: translateX(2px);
+        }
+
+        .tab-btn.active {
+            background: var(--bue-blue);
+            color: #fff;
+            border-color: var(--bue-blue);
+            box-shadow: 0 4px 12px rgba(0, 51, 102, 0.15);
+            transform: translateX(4px);
+        }
+
+        @media (max-width: 768px) {
+            .layout-grid {
+                grid-template-columns: 1fr;
+            }
+            .tabs-header {
+                max-height: 250px;
+            }
+            .tab-btn.active {
+                transform: translateX(0);
+            }
+            .tab-btn:hover {
+                transform: translateX(0);
+            }
+            .container {
+                padding: 2rem 1.25rem;
+            }
+        }
+.tab-content {
+            background: #ffffff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+            text-align: center;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .file-icon {
+            margin-bottom: 1.25rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .file-icon svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        .file-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+            word-break: break-word;
+            line-height: 1.4;
+        }
+
+        .file-note {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Button */
+        .btn-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.875rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            background: linear-gradient(135deg, var(--accent) 0%, #2563eb 100%);
+            border: none;
+            border-radius: 9999px;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 16px -8px var(--accent);
+            position: relative;
+            overflow: hidden;
+            gap: 8px;
+        }
+
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transform: translateX(-100%);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px -8px var(--accent);
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
+        }
+
+        .btn:hover::after {
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            100% { transform: translateX(100%); }
+        }
+
+        .btn svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            h2 {
+                font-size: 0.85rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .description {
+                font-size: 0.95rem;
+                margin-bottom: 2rem;
+            }
+            
+            .highlight {
+                font-size: 1.05rem;
+            }
+
+            .btn {
+                width: 100%;
+                padding: 1rem 1.5rem;
+            }
+            
+            .file-name {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <main class="container">
+                <div class="logo-container">
+            <img src="./BUE.png" alt="British University in Egypt Logo" class="bue-logo">
+        </div>
+        <h1 id="main-heading">Master's Graduation Documents</h1>
+        <h2 id="sub-heading">British University in Egypt <br> POST GRADUATE COMMITTEE</h2>
+
+        <div class="tabs-container" id="tabs-container">
+            <!-- Tabs will be dynamically generated here -->
+        </div>
+
+    </main>
+
+    <script>
+        const files = [
+            { name: "02-Thesis-Research Project work completion request_24.docx", link: "https://drive.google.com/file/d/16Hu43j3-Sdo9q-PbrxT05wJ7ccSp-JHj/view?usp=sharing" },
+            { name: "03-Internal Examiner Report for Work Completion Seminar_2024.docx", link: "https://drive.google.com/file/d/1U5ANXlCW0PTfKwJmkQvtRTdykqGRmTia/view?usp=sharing" },
+            { name: "06-Thesis evaluation form_Supervisor.docx", link: "https://drive.google.com/file/d/1M3o8p0BJqrb43Uq8quszKnTxWWWzVDt-/view?usp=sharing" },
+            { name: "07-Oral presentation evaluation form_External Examiner.docx", link: "https://drive.google.com/file/d/1-HvpXAY7gMhN_XzHsj2vVcKLewYS7HAx/view?usp=sharing" },
+            { name: "08-Thesis Marks form.docx", link: "https://drive.google.com/file/d/1LEpRaPiG7s8vILjYmojiKn2wcdIfkTs2/view?usp=sharing" },
+            { name: "09-Report of Final Defense.docx", link: "https://drive.google.com/file/d/1U3kP1m3HX0cBI3jn7_-olEe6zo8y4Mop/view?usp=sharing" },
+            { name: "10- Approval Document.docx", link: "https://drive.google.com/file/d/1fcZ8t8s-rZUb2eZe_KgzFGHKP1U8mua9/view?usp=sharing" },
+            { name: "Check List for Graduation Process.docx", link: "https://drive.google.com/file/d/1JlhlWcsnDuMUojlR3eI0woWlXnG5QLbu/view?usp=sharing" },
+            { name: "Graduation Process rev1.pdf", link: "https://drive.google.com/file/d/1NShjEP0evgi8nRUUc8uttTsS5VvulI6T/view?usp=sharing" },
+            { name: "Graduation Process.pdf", link: "https://drive.google.com/file/d/1rNOg2ja3PRztECrhW4ZB50OPyphwntPH/view?usp=sharing" },
+            { name: "Post Grad Poster + Hyper links .pptx", link: "https://drive.google.com/file/d/13qsvTiOh-ntWF-dsQeNAUP5a810vZa8Q/view?usp=sharing" },
+            { name: "project preparation guidelines_2025.docx", link: "https://drive.google.com/file/d/10rysoKy93XdNPprY_9z489hP-MpPIXVC/view?usp=sharing" },
+            { name: "thesis preparation guidelines_2025.docx", link: "https://drive.google.com/file/d/1b2LHuS6R59Ushjb62fyLqlpsPswI3TFG/view?usp=sharing" },
+            { name: "اقتباس.docx", link: "https://drive.google.com/file/d/1jwrWp5bhpIJ2eFakB9a0TPNKljiv5I6R/view?usp=sharing" }
+        ];
+
+        const getIconForFile = (filename) => {
+            if (filename.endsWith('.pdf')) {
+                return `<svg fill="none" stroke="#ef4444" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`;
+            } else if (filename.endsWith('.pptx')) {
+                return `<svg fill="none" stroke="#f97316" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`;
+            } else { // docx
+                return `<svg fill="none" stroke="#3b82f6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`;
+            }
+        };
+
+        const generateShortName = (filename) => {
+            const shortName = filename.replace(/\.(docx|pdf|pptx)$/i, '');
+            // Create a clean readable tab name
+            let parts = shortName.split(/[-\s_]+/);
+            let cleaned = parts.slice(0, 3).join(" ");
+            if (cleaned.length > 22) cleaned = cleaned.substring(0, 20) + '...';
+            if (!cleaned) return shortName.substring(0, 15) + '...';
+            return cleaned;
+        };
+
+        
+        const tabsContainer = document.getElementById('tabs-container');
+        
+        // Wrap everything in a CSS Grid (.layout-grid)
+        let htmlStr = `<div class="layout-grid">`;
+
+        // Left Sidebar (Vertical Menu)
+        htmlStr += `<div class="tabs-header-wrapper"><div class="tabs-header" id="tabs-header">`;
+        files.forEach((fileObj, index) => {
+            htmlStr += `<button class="tab-btn ${index === 0 ? 'active' : ''}" onclick="switchTab(${index})" id="btn-${index}">${generateShortName(fileObj.name)}</button>`;
+        });
+        htmlStr += `</div></div>`;
+
+        // Right Content Area
+        htmlStr += `<div class="tabs-contents-wrapper">`;
+        files.forEach((fileObj, index) => {
+            htmlStr += `
+                <div class="tab-content ${index === 0 ? 'active' : ''}" id="tab-content-${index}">
+                    <div class="file-icon">${getIconForFile(fileObj.name)}</div>
+                    <h3 class="file-name">${fileObj.name}</h3>
+                    <p class="file-note">This file will open directly in Google Drive</p>
+                    <div class="btn-container">
+                        <a href="${fileObj.link}" target="_blank" rel="noopener noreferrer" class="btn" title="Open File">
+                            <span>Open File to View</span>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            `;
+        });
+        htmlStr += `</div></div>`;
+
+        tabsContainer.innerHTML = htmlStr;
+
+        window.switchTab = (index) => {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            const btn = document.getElementById(`btn-${index}`);
+            const content = document.getElementById(`tab-content-${index}`);
+            
+            btn.classList.add('active');
+            content.classList.add('active');
+
+            // Scroll active tab into view in the sidebar
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        };
+
+    </script>
+</body>
+</html>
